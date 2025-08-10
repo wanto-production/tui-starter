@@ -57,8 +57,8 @@ match (code, modifiers) {
 1. **Clone the template**
 
    ```sh
-   git clone https://github.com/yourname/tui-framework-template.git
-   cd tui-framework-template
+   git clone https://github.com/wanto-production/tui-starter
+   cd tui-starter
    ```
 
 2. **Run the app**
@@ -71,9 +71,6 @@ match (code, modifiers) {
 
    * Open `src/widget.rs` and modify Rust files.
    * Widgets are automatically loaded by the main app logic.
-
----
-
 
 ---
 
