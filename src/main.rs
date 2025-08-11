@@ -10,8 +10,8 @@ use tui::{Terminal, backend::CrosstermBackend};
 
 fn main() -> Result<(), io::Error> {
     let mut terminal = setup_terminal()?;
-
-    widget::run_app(&mut terminal)?;
+    let mut w = widget::Widgets::new(&mut terminal);
+    w.run_app()?;
 
     restore_terminal(&mut terminal)?;
 
